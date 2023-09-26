@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        /* Did this to hide menu for screen sizes that are less than less than 1200px */
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
