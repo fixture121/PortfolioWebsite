@@ -242,10 +242,6 @@ section {
   margin: 1rem 0.3rem;
 }
 
-.hero-email-icon {
-  height: 2.3rem;
-}
-
 /* BUTTONS */
 
 .btn-container {
@@ -380,6 +376,8 @@ article {
     justify-content: space-around;
     gap: 0.5rem;
 }
+
+/* EXPERIENCE SECTION */
 
 article .icon {
     cursor: default;
