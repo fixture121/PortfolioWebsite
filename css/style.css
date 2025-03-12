@@ -476,3 +476,23 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* DARK MODE */
+
+.darkmode--activated p {
+  color: #727070;
+}
+
+.darkmode--activated li {
+  color: #727070;
+}
+
+.darkmode--activated h1 {
+  color: #727070;
+}
+
+
+.button {
+  isolation: isolate;
+}
