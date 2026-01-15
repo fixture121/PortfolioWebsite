@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/mediaqueries.css" />
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+    </script>
     <title>Toufiq Charania - Portfolio</title>
   </head>
   <body>
+    <div class="update-banner" role="status" aria-live="polite">
+      🚧 <strong>Portfolio Update - January 2026</strong><br />
+      A new version of this site is currently in development.<br />
+      This version remains accurate, but a refreshed design and updated projects are coming soon.
+    </div>
     <nav id="desktop-nav">
       <div class="logo">Toufiq Charania</div>
       <div>
@@ -47,7 +59,7 @@
         <p class="section_text-p1">Hello, I'm</p>
         <h1 class="title">Toufiq Charania</h1>
         <p class="section_text-p2">
-          Software Developement & Network Engineering Student at Sheridan
+          Software Development & Network Engineering Student at Sheridan
           College
         </p>
         <div class="btn-container">
@@ -192,24 +204,46 @@
               </article>
               <article>
                 <img
-                  src="/images/javascript.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
                   src="/images/angular.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Angular</h3>
-                  <p>Basic</p>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/swift.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/kotlin.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/javascript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Learning</p>
                 </div>
               </article>
               <article>
@@ -220,7 +254,7 @@
                 />
                 <div>
                   <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <p>Learning</p>
                 </div>
               </article>
             </div>
@@ -240,14 +274,28 @@
                 </div>
               </article>
               <article>
+                <img src="/images/python.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
                 <img
-                  src="/images/spring-boot.png"
+                  src="/images/c-sharp.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Spring Boot</h3>
-                  <p>Intermediate</p>
+                  <h3>C#</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img src="/images/c.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                  <p>Learning</p>
                 </div>
               </article>
               <article>
@@ -261,29 +309,64 @@
                   <p>Intermediate</p>
                 </div>
               </article>
-              <article>
-                <img src="/images/c.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>C</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Libraries and Frameworks</h2>
+            <div class="article-container">
               <article>
                 <img
-                  src="/images/c-sharp.png"
+                  src="/images/spring-boot.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>C#</h3>
-                  <p>Basic</p>
+                  <h3>Spring Boot</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="/images/net.png" alt="Experience icon" class="icon" />
+                <img
+                  src="/images/pytorch.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
                 <div>
-                  <h3>.NET</h3>
-                  <p>Basic</p>
+                  <h3>PyTorch</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/tensorflow.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tensorflow</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/open-cv.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                  <p>Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/images/webrtc.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WebRTC</h3>
+                  <p>Learning</p>
                 </div>
               </article>
             </div>
@@ -320,6 +403,12 @@
               >
                 GitHub
               </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fixture121/WarGame'"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -341,6 +430,12 @@
               >
                 GitHub
               </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fixture121/SplitIt'"
+              >
+                Live Demo
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -361,6 +456,12 @@
                 onclick="location.href='https://github.com/fixture121/PortfolioWebsite/'"
               >
                 GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fixture121/'"
+              >
+                Live Demo
               </button>
             </div>
           </div>
@@ -418,3 +519,4 @@
     <script src="/js/script.js"></script>
   </body>
 </html>
+

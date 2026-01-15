@@ -476,3 +476,43 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* DARK MODE */
+
+.darkmode--activated p {
+  color: #727070;
+}
+
+.darkmode--activated li {
+  color: #727070;
+}
+
+.darkmode--activated h1 {
+  color: #727070;
+}
+
+
+.button {
+  isolation: isolate;
+}
+
+/* UPDATE BANNER */
+.update-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #f7f7fa;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.darkmode--activated .update-banner {
+  background: #1f1f1f;
+  color: #e0e0e0;
+  border-bottom-color: #333;
+}

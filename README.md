@@ -9,5 +9,6 @@ CSS
 JavaScript
 
 Credits:
-Icons from Flat Icon, https://www.flaticon.com/
-CSS referenced from W3 Schools, https://www.w3schools.com/
+Icons from Flat Icon, https://www.flaticon.com/<br>
+CSS referenced from W3 Schools, https://www.w3schools.com/<br>
+Dark mode from Darkmode.js, https://darkmodejs.learn.uno/
